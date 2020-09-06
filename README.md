@@ -1,3 +1,5 @@
+https://dariaazanovich.github.io/lesson-3/
+
 # Домашнее задание к уроку 3
 
 ### Верстаем макет.
