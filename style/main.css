@@ -1,0 +1,195 @@
+/*---------------------------- Default styles --------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+
+  text-align: center;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 0;
+}
+
+/*---------------------------- Header content --------------------------------*/
+header {
+  padding-top: 107px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+
+  border: none;
+
+  color: #212121;
+}
+
+hr {
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+
+  background-color: #ff8c38;
+  border: none;
+}
+
+h4 {
+  height: 14px;
+
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.04px;
+  line-height: 0.85;
+
+  color: #86878b;
+}
+
+.header {
+  padding-top: 76px;
+  padding-bottom: 26px;
+}
+
+.header h1 {
+  color: #ffffff;
+}
+
+.header hr {
+  background-color: #ffffff;
+}
+
+.header h4 {
+  color: #ffffff;
+  opacity: 0.8;
+}
+/*------------------------------ Main text content ---------------------------*/
+
+.container {
+  padding-top: 40px;
+  padding-bottom: 102px;
+}
+
+.box {
+  display: inline-block;
+  width: 350px;
+  margin: 0 16px;
+}
+
+.subtitle {
+  width: 181px;
+  height: 21px;
+  margin: 29px auto 25px auto;
+
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  line-height: 0.85;
+
+  color: #333333;
+}
+
+.subtitle-center {
+  width: 122px;
+  height: 17px;
+  margin-bottom: 29px;
+
+  text-align: left;
+}
+
+.text {
+  height: 52px;
+  padding: 0;
+
+  font-size: 14px;
+
+  letter-spacing: -0.04px;
+  line-height: 1.27;
+
+  color: #86878B;
+}
+
+/*---------------------------- Buttons style- --------------------------------*/
+button {
+  width: 135px;
+  height: 42px;
+  margin-bottom: 62px;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.btn-download {
+  font-size: 15px;
+  font-weight: 600;
+
+  color: #ffffff;
+}
+
+/*----------------------------- Background images-----------------------------*/
+.icon {
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+
+  border: 2.5px solid #ff8c38;
+  border-radius: 50%;
+}
+
+.bulb-icon {
+  background: url(../img/icons/light-bulb.png) no-repeat center center;
+}
+
+.keyboard-icon {
+  background: url(../img/icons/keyboard.png) no-repeat center center;
+}
+
+.lightning-icon {
+  background: url(../img/icons/lightning.png) no-repeat center center;
+}
+
+.background {
+  height: 321px;
+  width: 100%;
+
+  background: url(../img/bg/city.png) no-repeat center center;
+  background-size: cover;
+
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.4) inset;
+}
+
+/*---------------------------- Footer content --------------------------------*/
+footer {
+  height: 101px;
+  background-color: #000000;
+  padding: 39px 0 39px;
+}
+
+.socials {
+    padding-left: 0;
+}
+
+.socials li {
+  display: inline-block;
+  margin: auto 11px;
+}
+
+.logo {
+  height: 23px;
+  width: 23px;
+
+  cursor: pointer;
+}
+
+.socials {
+  margin-bottom: 15px;
+}
+
+.copyright {
+  font-size: 12px;
+
+  color: #ffffff;
+}
